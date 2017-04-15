@@ -1,0 +1,70 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 620px;
+    background: #df6d93;
+    background: -webkit-linear-gradient(top, #df6d93, #0a0a29);
+    background: -o-linear-gradient(bottom, #df6d93, #0a0a29);
+    background: -moz-linear-gradient(bottom, #df6d93, #0a0a29);
+    background: linear-gradient(to bottom, #df6d93, #0a0a29);
+    /*figure out how to make gradient responsive*/
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 6em;
+    font-family: 'Rochester', cursive;
+    text-shadow: 2px 2px 5px #0a0a29;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+
+
+.nav{
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.img{
+    box-shadow: 2px 2px 5px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    color: #ffffff;
+}
+

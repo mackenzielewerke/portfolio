@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\spaceball.gif" />
+    <Content Include="wwwroot\imgs\1492223868_Linkedin_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492223998_Twitter_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492224132_google_plus_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492224158_Github_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492224176_Linkedin_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492224192_Twitter_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492225446_Android_social_media_logo.png" />
+    <Content Include="wwwroot\imgs\1492308997_Aquicon-Github.png" />
+    <Content Include="wwwroot\imgs\1492309229_Significon-Github.png" />
+    <Content Include="wwwroot\imgs\1492309410_Significon-Github.png" />
+    <Content Include="wwwroot\imgs\cutmypic %281%29.png" />
+    <Content Include="wwwroot\imgs\cutmypic %282%29.png" />
+    <Content Include="wwwroot\imgs\cutmypic %284%29.png" />
+    <Content Include="wwwroot\imgs\cutmypic %285%29.png" />
+    <Content Include="wwwroot\imgs\cystal-stockphoto.png" />
+    <Content Include="wwwroot\imgs\github.png" />
+    <Content Include="wwwroot\imgs\octocat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootstrap\dist\fonts\" />
+  </ItemGroup>
+
+</Project>
