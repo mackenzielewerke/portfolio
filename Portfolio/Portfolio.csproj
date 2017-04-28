@@ -20,13 +20,17 @@
     <Content Include="wwwroot\imgs\1492308997_Aquicon-Github.png" />
     <Content Include="wwwroot\imgs\1492309229_Significon-Github.png" />
     <Content Include="wwwroot\imgs\1492309410_Significon-Github.png" />
+    <Content Include="wwwroot\imgs\background-pic.jpg" />
+    <Content Include="wwwroot\imgs\black.png" />
     <Content Include="wwwroot\imgs\cutmypic %281%29.png" />
     <Content Include="wwwroot\imgs\cutmypic %282%29.png" />
     <Content Include="wwwroot\imgs\cutmypic %284%29.png" />
     <Content Include="wwwroot\imgs\cutmypic %285%29.png" />
+    <Content Include="wwwroot\imgs\cutmypic %286%29.png" />
     <Content Include="wwwroot\imgs\cystal-stockphoto.png" />
     <Content Include="wwwroot\imgs\github.png" />
     <Content Include="wwwroot\imgs\octocat.png" />
+    <Content Include="wwwroot\imgs\palmetto.svg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -41,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\lib\bootstrap\dist\fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

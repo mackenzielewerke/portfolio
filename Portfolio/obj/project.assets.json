@@ -9813,10 +9813,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Grooms\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\Grooms\\Desktop\\portfolio\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\Grooms\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\Portfolio.csproj",
-      "outputPath": "C:\\Users\\Grooms\\documents\\visual studio 2017\\Projects\\Portfolio\\Portfolio\\obj\\",
+      "projectPath": "C:\\Users\\Grooms\\Desktop\\portfolio\\Portfolio\\Portfolio.csproj",
+      "outputPath": "C:\\Users\\Grooms\\Desktop\\portfolio\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
