@@ -1,2 +1,2 @@
 # portfolio
-My personal web development portfolio. Recent back-end engineering graduate of coding bootcamp, The Iron Yard. I want to be a full-stack developer, so I created my portfolio as a starting project.
+My personal web development portfolio. Recent back-end engineering graduate of coding bootcamp, The Iron Yard. I want to be a full-stack developer, so I created my portfolio as a starting project. This is a C#/.NET Core project using HTML5, CSS3, Javascript, and Bootstrap. It was created using Visual Studio 2017 (for some reason, the solution file changed to 2015 when I added it to the repository but it runs in 2017). 
