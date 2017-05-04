@@ -43,7 +43,7 @@ $.fn.sparkleh = function (options) {
 
     });
 
-}
+};
 
 
 
@@ -77,8 +77,8 @@ Sparkle.prototype = {
         this.sprites = [0, 6, 13, 20];
         this.sprite.src = this.datauri;
 
-        this.canvas.width = this.options.width + (this.options.overlap * 2);
-        this.canvas.height = this.options.height + (this.options.overlap * 2);
+        this.canvas.width = this.options.width + this.options.overlap * 2;
+        this.canvas.height = this.options.height + this.options.overlap * 2;
 
 
         this.particles = this.createSparkles(this.canvas.width, this.canvas.height);
@@ -96,7 +96,7 @@ Sparkle.prototype = {
 
             var color = this.options.color;
 
-            if (this.options.color == "rainbow") {
+            if (this.options.color === "rainbow") {
                 color = '#' + ('000000' + Math.floor(Math.random() * 16777215).toString(16)).slice(-6);
             } else if ($.type(this.options.color) === "array") {
                 color = this.options.color[Math.floor(Math.random() * this.options.color.length)];
@@ -167,15 +167,15 @@ Sparkle.prototype = {
 
                 var u = _this.particles[i];
 
-                var randX = (Math.random() > Math.random() * 2);
-                var randY = (Math.random() > Math.random() * 3);
+                var randX = Math.random() > Math.random() * 2;
+                var randY = Math.random() > Math.random() * 3;
 
                 if (randX) {
-                    u.position.x += ((u.delta.x * _this.options.speed) / 1500);
+                    u.position.x += u.delta.x * _this.options.speed / 1500;
                 }
 
                 if (!randY) {
-                    u.position.y -= ((u.delta.y * _this.options.speed) / 800);
+                    u.position.y -= u.delta.y * _this.options.speed / 800;
                 }
 
                 if (u.position.x > _this.canvas.width) {
@@ -199,7 +199,7 @@ Sparkle.prototype = {
                 }
 
                 if (u.opacity <= 0) {
-                    u.opacity = (_this.fade) ? 0 : 1;
+                    u.opacity = _this.fade ? 0 : 1;
                 }
 
             }
