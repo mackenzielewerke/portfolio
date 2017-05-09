@@ -1,0 +1,154 @@
+﻿/*CITATION for nav-bar colors https://work.smarchal.com/twbscolor/css/0e0e31df6d93ffffff840a4d1 */
+html{
+    margin: 0;
+    height:100%;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #df6d93;
+    background: -webkit-linear-gradient(top, #df6d93, #0a0a29 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#df6d93), color-stop(100%,#0a0a29));
+    background: -o-linear-gradient(bottom, #df6d93, #0a0a29 100%);
+    background: -moz-linear-gradient(bottom, #df6d93, #0a0a29 100%);
+    background: linear-gradient(to bottom, #df6d93, #0a0a29 100%);
+    margin: 0;
+    height: 100%;
+    /*figure out how to make gradient responsive*/
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+
+}*/
+
+h1 {
+    color: #ffffff;
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 7em;
+    font-family: 'Rochester', cursive;
+    text-shadow: 2px 2px 5px #0a0a29;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+
+
+.nav{
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.img{
+    box-shadow: 2px 2px 5px;
+}
+
+.navbar-default {
+    background-color: #0e0e31;
+    border-color: #df6d93;
+    display: inline-block;
+}
+
+    .navbar-default .navbar-brand {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #840a4d;
+        }
+
+    .navbar-default .navbar-text {
+        color: #ffffff;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        color: #ffffff;
+        background-color: #0e0e31;
+    }
+        .navbar-default .navbar-nav > .active > a:hover {
+            color: #840a4d;
+            font-weight:900;
+            background-color: #df6d93;
+        }
+
+
+    .navbar-default .navbar-toggle {
+        border-color: #df6d93;
+    }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            background-color: #df6d93;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+        }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #ffffff;
+    }
+
+    .navbar-default .navbar-link {
+        color: #ffffff;
+    }
+
+        .navbar-default .navbar-link:hover {
+            color: #840a4d;
+        }
+
+
