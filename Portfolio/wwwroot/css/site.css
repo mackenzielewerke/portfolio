@@ -4,7 +4,7 @@ html{
     height:100%;
 }
 
-body {
+/*body {
     padding-top: 20px;
     padding-bottom: 40px;
     background-size: cover;
@@ -17,7 +17,24 @@ body {
     background: linear-gradient(to bottom, #df6d93, #0a0a29 100%);
     margin: 0;
     height: 100%;
-    /*figure out how to make gradient responsive*/
+    /*figure out how to make gradient responsive
+    }
+*/
+
+.body-content {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #df6d93;
+    background: -webkit-linear-gradient(top, #df6d93, #0a0a29 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#df6d93), color-stop(100%,#0a0a29));
+    background: -o-linear-gradient(bottom, #df6d93, #0a0a29 100%);
+    background: -moz-linear-gradient(bottom, #df6d93, #0a0a29 100%);
+    background: linear-gradient(to bottom, #df6d93, #0a0a29 100%);
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .img-responsive{
