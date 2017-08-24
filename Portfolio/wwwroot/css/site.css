@@ -2,21 +2,23 @@
 html {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 .body-content {
     padding-top: 20px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     background: #df6d93;
-    background: -webkit-linear-gradient(top, #df6d93, #0a0a29 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#df6d93), color-stop(100%,#0a0a29));
-    background: -o-linear-gradient(bottom, #df6d93, #0a0a29 100%);
-    background: -moz-linear-gradient(bottom, #df6d93, #0a0a29 100%);
-    background: linear-gradient(to bottom, #df6d93, #0a0a29 100%);
+    background: -webkit-radial-gradient(top, #df6d93, #0a0a29 100%);
+    background: -webkit-gradient(radial, left top, left bottom, color-stop(0%,#df6d93), color-stop(100%,#0a0a29));
+    background: -moz-radial-gradient(bottom, #df6d93, #0a0a29 100%);
+    background: radial-gradient(to bottom, #df6d93, #0a0a29 100%);
     margin: 0;
-    height: 100%;
+    /*height: 150%;*/
     width: 100%;
 }
 
